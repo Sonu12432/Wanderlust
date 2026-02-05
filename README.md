@@ -24,3 +24,15 @@ This project follows the **Model-View-Controller (MVC)** design pattern to ensur
 - **Database:** MongoDB (NoSQL)
 - **View Engine:** EJS (Embedded JavaScript) or React
 - **Authentication:** Passport.js / JWT
+
+---
+
+## 📁 Project Structure (MVC)
+```text
+Wanderlust/
+├── models/         # Database schemas (Listing, User, Review)
+├── views/          # Templates/UI components
+├── controllers/    # Logic for handling requests & CRUD operations
+├── routes/         # URL routing for different features
+├── public/         # Static files (CSS, Images, JS)
+└── app.js          # Entry point of the application
